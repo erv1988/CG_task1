@@ -33,9 +33,20 @@ namespace desktop
             }
         }
 
-        private void BMPOnlyRed(object sender, RoutedEventArgs e) => selectChannel(2);
-        private void BMPOnlyGreen(object sender, RoutedEventArgs e) => selectChannel(1);
-        private void BMPOnlyBlue(object sender, RoutedEventArgs e) => selectChannel(0);
+        private void BMPOnlyRed(object sender, RoutedEventArgs e)
+        {
+            selectChannel(2);
+        }
+
+        private void BMPOnlyGreen(object sender, RoutedEventArgs e)
+        {
+            selectChannel(1);
+        }
+
+        private void BMPOnlyBlue(object sender, RoutedEventArgs e)
+        {
+            selectChannel(0);
+        }
 
         private void selectChannel(int id)
         {
